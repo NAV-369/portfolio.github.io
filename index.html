@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+        <link rel="stylesheet" href="style.css"/>
+          
+        <title>Portfolio Web</title>
+      </head>
+    <body>
+    
+      <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Z<span>o</span><del>la</del></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-bars"></i>
+            </div>
+            <div class="nav__socials">
+                <a href="https://www.linkedin.com/in/zelalem-tegene-17957a29b" target="_blank" class="nav__social-link">
+                    <i class="uil uil-linkedin"></i>
+                    <br>
+                </a>
+                <a href="https://www.instagram.com/zola_nav/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-instagram"></i>
+                    <br>
+                </a>
+                <a href="https://x.com/bignav369/status/1807520866495791133?s=46" target="_blank" class="nav__social-link">
+                    <i class="uil uil-x"></i>
+                </a>
+            </div>
+            <div class="nav__btns">
+                <a href="#contact" class="nav__link-btn btn">Talk to Me</a>
+            </div>
+        </nav>
+    </header>
+        </nav>
+
+      <main class="main"> 
+
+
+        <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to my world</span>
+         <h1 class="home__title">
+          Hi I'm Zelalem - Tegene <span>Programmer</span> Based In Ethiopia  </h1>
+          </div>
+        
+        <img src="img/1.jfif" alt="personal-pic" class="home__img" />
+      </div>
+      </section>
+        
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="img/2.jfif" alt="personal-pic " class="about__img"/>
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+            <p class="about__description">
+                I am a passionate programmer from Ethiopia, a proud and uncolonized independent country.
+                I am excited to share my knowledge, skills, and passion for computer science with you. 
+                I hope you enjoy my work as much as I enjoy creating it. I am confident that my 
+                dedication and expertise will leave a lasting impression.
+            </p>
+           <div class="tabs__btns">
+            <span class="tabs__btn tab__active" data-target="#skills"><h3>Main Skills</h3></span>
+            <span class="tabs__btn" data-target="#experience"><h3>Experience</h3></span>
+            <span class="tabs__btn" data-target="#education"><h3>Educatioin</h3></span>
+            <span class="tabs__btn" data-target="#cv"><h3>CV</h3></span>
+           </div>
+
+           <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+
+                <p class="tabs__description">
+                 <span>User experience design</span> - UI 
+                 <span>Delight the user and make it work.</span> 
+                </p>
+                
+                <p class="tabs__description">
+                  <span>Web and user interface design</span> - Development 
+                  <span>Websites, Applications, ...</span> 
+                 </p>
+                
+                 <p class="tabs__description">
+                  <span>Interactive design</span> - Animation 
+                  <span>More Integrated.</span> 
+                 </p>  
+            </div>
+            </div> 
+            <div class="tabs__item" data-content id="experience">
+              <div class="tabs__data grid">
+
+              <p class="tabs__description">
+                <span>Front-end </span> - Tech-Review (School project)  
+                <span>2022-2023</span> 
+              </p>
+
+               <p class="tabs__description">
+                 <span>Back-end</span> - School Registration (School project)
+                 <span>2023-2024</span> 
+              </p>
+              
+                <p class="tabs__description">
+                 <span>Full stack developer</span> - Ecommerce sites (School project)
+                 <span>2023-2024</span> 
+                </p>  
+                </div>
+              </div>
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+  
+                  <p class="tabs__description">
+                   <span>Bachelor degree in Computer Science </span> - Unity University 
+                   <span>Currently 3rd Year </span> 
+                  </p>
+                  
+                  <p class="tabs__description">
+                    <span>AI - Career </span> - ALX
+                    <span>In progress </span> 
+                   </p>
+                  
+                   <p class="tabs__description">
+                    <span>Python </span> - Udemy
+                    <span>In progress </span> 
+                   </p>
+
+              </div>
+              
+             
+           </div>
+           <div class="tabs__item" data-content id="cv">
+            <div class="tabs__data grid">
+
+              <p class="tabs__description">
+              <button onclick="downcv()" class="btn bn">Download CV</button> 
+            <p class="tabs__description">
+                <p class="tabs__description">
+                    Check the above button
+               </p>
+                 
+                 <p>To download the cv</p>
+                  
+            </p>
+          
+              </p>
+
+
+          </div>
+          
+         
+       </div>
+          </div>
+        </div>
+        </div>
+
+      </section>
+     
+      <section class="services section" id="services">
+        <h2 class="section__title">MY Service</h2>
+        <p class="section__description">
+            I provide a variety of services aimed at meeting my customers' 
+            needs with precision, ensuring we achieve our goals effectively.
+        </p>
+
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-users-alt services__icon"></i>
+
+            <h3 class="services__title">Website Development</h3>
+            <p class="services__description">
+                I dive into every project with full commitment and deliver results ASAP!  
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-desktop services__icon"></i>
+
+            <h3 class="services__title">App Development</h3>
+            <p class="services__description">
+                I throw myself down with a full potentail, And
+                I will Provide you any project A$AP!!  
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-rss-interface services__icon"></i>
+
+            <h3 class="services__title">Data-Base Design</h3>
+            <p class="services__description">
+                I throw myself down with a full potentail, And
+                I will Provide you any project A$AP!!  
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Project</h2>
+        <p class="section__description">
+            Check out my latest projects from the college workspace and enjoy exploring my newest creations! </p>
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item">
+            <img src="img/3.jfif" alt="latest product" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Spare - parts</p>
+            <h3 class="portfolio__title">web Design</h3>
+            <p class="portfolio__description">
+                One of my customer projects is 'Spare-parts' an ecommerce 
+                website that functions seamlessly and is fully integrated 
+                <br>  
+                <a href="https://zola-codex.github.io/Ecommerce/" target="_blank">Live-Demo</a>
+            </p>
+          </div>
+          </div> 
+
+          <div class="portfolio__item">
+            <img src="img/4.jpg" alt="latest product" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Online Voting System</p>
+            <h3 class="portfolio__title">Application Design</h3>
+            <p class="portfolio__description">
+              One of my collage project is a Desktop app for online 
+              Voting system that functions efficiently and is highly integrated. 
+            </p>
+          </div>
+          </div> 
+
+          <div class="portfolio__item">
+            <img src="img/5.jpg" alt="latest product" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">School Registration</p>
+            <h3 class="portfolio__title">Database - Design</h3>
+            <p class="portfolio__description">
+                I've recently worked on a school registration project 
+                featuring an advanced database management system. 
+                My focus was on designing the backend!
+            </p>
+          </div>
+          </div> 
+        </div>
+      </section>
+    
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title sec"> Contact Me</h2>
+            <p class="contact__description">
+              I'm Available for work. connect with me via phone:
+              <a href="tel:+251986408483">0986408483</a> /
+              <a href="tel:+251714629970">0714629970</a> or email: 
+              <a href="mailto:zelalemtegene53gmial.com">zelalemtegene53gmial.com</a> 
+            </p>
+          <form class="contact__form" id="contact-form">
+  <div class="contact__form-input">
+    <input type="text" name="name" placeholder="Your Name *" class="contact__input" id="contact__name"/>
+  </div>
+  <div class="contact__form-input">
+    <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact__email"/>
+  </div>
+  <div class="contact__form-input">
+    <input type="text" name="subject" placeholder="Write a subject" class="contact__input" id="contact__subject"/>
+  </div>
+  <div class="contact__form-input">
+    <textarea name="message" placeholder="Your message" id="contact__message" class="contact__input textarea"></textarea>
+  </div>
+  <div class="submit-cont">
+  <input type="submit" value="submit" class="btn"/>
+  <p class="error__message" id="error-message"></p>
+</div>
+</form>
+
+          </div>
+          <img src="img/6.jfif" alt="personal pic" class="contact__img"/>
+        </div>  
+      </section>
+
+      <section class="footer">
+        <div class="footer__container container grid">
+          <a href="index.html" class="footer__logo">Z<span>o</span><del>la</del></a>
+          
+          <div class="footer__socails">
+            <a
+              href="https://www.linkedin.com/in/zelalem-tegene-17957a29b"
+              target="_blank"
+              class="footer__social-link"
+            >
+            <i class="uil uil-linkedin"></i>
+          </a>
+            <a
+              href="https://www.instagram.com/zola_nav/"
+              target="_blank"
+              class="footer__social-link"
+            >
+          <i class="uil uil-instagram"></i>
+          </a>
+          <a
+              href="https://x.com/bignav369/status/1807520866495791133?s=46"
+              target="_blank"
+              class="footer__social-link"
+            >
+          <i class="uil uil-x"></i>
+          </a>
+          </div>
+          <p class="footer__copyright">&copy 2024 All Right Reserved</p>
+
+        </div>
+
+      </section>
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+      </a>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+      <script src="index1.js"></script>
+    </body>
+</html>
